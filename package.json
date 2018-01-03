@@ -6,7 +6,16 @@
     "type": "git",
     "url": "https://github.com/carbon-design-system/sync.git"
   },
+  "scripts": {
+    "ci-check": "yarn prettier:diff && yarn lint",
+    "commitmsg": "validate-commit-msg",
+    "lint": "eslint src",
+    "precommit": "lint-staged",
+    "prettier": "prettier --write \"**/*.{md,js}\"",
+    "prettier:diff": "prettier --list-different \"**/*.{md,js}\""
+  },
   "devDependencies": {
+    "eslint": "^4.14.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "prettier": "^1.9.2",
@@ -42,6 +51,18 @@
       "maxSubjectLength": 100,
       "subjectPattern": ".+",
       "subjectPatternErrorMsg": "Subject does not match subject pattern!"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "node": true,
+      "browser": true,
+      "es6": true,
+      "jest": true,
+      "jasmine": true
     }
   }
 }
