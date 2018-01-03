@@ -65,8 +65,3 @@ module.exports = exports = {
   create,
   update,
 };
-
-exports.all = all;
-exports.find = find;
-exports.create = create;
-exports.update = update;

@@ -1,0 +1,135 @@
+[
+  {
+    "id": 613854893,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/bug",
+    "name": "bug",
+    "color": "ee0701",
+    "default": true
+  },
+  {
+    "id": 642384546,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/deploy:Bluemix%20Design%20System",
+    "name": "deploy:Bluemix Design System",
+    "color": "c2e0c6",
+    "default": false
+  },
+  {
+    "id": 757475886,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/discussion",
+    "name": "discussion",
+    "color": "FCCA6B",
+    "default": false
+  },
+  {
+    "id": 690554153,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/docs",
+    "name": "docs",
+    "color": "d4c5f9",
+    "default": false
+  },
+  {
+    "id": 613854894,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/duplicate",
+    "name": "duplicate",
+    "color": "cccccc",
+    "default": true
+  },
+  {
+    "id": 613854895,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/enhancement",
+    "name": "enhancement",
+    "color": "84b6eb",
+    "default": true
+  },
+  {
+    "id": 625018611,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/failing%20tests",
+    "name": "failing tests",
+    "color": "ee0701",
+    "default": false
+  },
+  {
+    "id": 717047679,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/good%20first%20issue",
+    "name": "good first issue",
+    "color": "7057ff",
+    "default": true
+  },
+  {
+    "id": 746936015,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/greenkeeper",
+    "name": "greenkeeper",
+    "color": "00c775",
+    "default": false
+  },
+  {
+    "id": 769471549,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/grooming",
+    "name": "grooming",
+    "color": "fef2c0",
+    "default": false
+  },
+  {
+    "id": 613854896,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/help%20wanted",
+    "name": "help wanted",
+    "color": "7057ff",
+    "default": true
+  },
+  {
+    "id": 625018691,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/merge%20conflict",
+    "name": "merge conflict",
+    "color": "ee0701",
+    "default": false
+  },
+  {
+    "id": 625018029,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/one%20more%20review",
+    "name": "one more review",
+    "color": "0052cc",
+    "default": false
+  },
+  {
+    "id": 750301602,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/priority:%20high",
+    "name": "priority: high",
+    "color": "EB101A",
+    "default": false
+  },
+  {
+    "id": 750301861,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/priority:%20low",
+    "name": "priority: low",
+    "color": "fbca04",
+    "default": false
+  },
+  {
+    "id": 750301772,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/priority:%20medium",
+    "name": "priority: medium",
+    "color": "F5923E",
+    "default": false
+  },
+  {
+    "id": 613854898,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/question",
+    "name": "question",
+    "color": "cc317c",
+    "default": true
+  },
+  {
+    "id": 625018770,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/ready%20for%20review",
+    "name": "ready for review",
+    "color": "fbca04",
+    "default": false
+  },
+  {
+    "id": 625018840,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/visual%20review%20needed",
+    "name": "visual review needed",
+    "color": "d4c5f9",
+    "default": false
+  }
+]
