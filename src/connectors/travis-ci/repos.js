@@ -51,7 +51,3 @@ module.exports = exports = {
   activate,
   deactivate,
 };
-
-exports.all = all;
-exports.activate = activate;
-exports.deactivate = deactivate;
