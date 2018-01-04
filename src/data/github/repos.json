@@ -1,0 +1,382 @@
+[
+  {
+    "id": 84835535,
+    "name": "carbon-components",
+    "html_url": "https://github.com/carbon-design-system/carbon-components",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 85728567,
+    "name": "carbon-themes",
+    "html_url": "https://github.com/carbon-design-system/carbon-themes",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-themes",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 85987501,
+    "name": "carbon-icons",
+    "html_url": "https://github.com/carbon-design-system/carbon-icons",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-icons",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 86360855,
+    "name": "carbon-design-kit",
+    "html_url": "https://github.com/carbon-design-system/carbon-design-kit",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-design-kit",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 88177157,
+    "name": "carbon-apis",
+    "html_url": "https://github.com/carbon-design-system/carbon-apis",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-apis",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 91586623,
+    "name": "carbon-sandbox",
+    "html_url": "https://github.com/carbon-design-system/carbon-sandbox",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-sandbox",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 92527058,
+    "name": "carbon-components-react",
+    "html_url": "https://github.com/carbon-design-system/carbon-components-react",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 95431577,
+    "name": "carbon-addons-catalog-react",
+    "html_url": "https://github.com/carbon-design-system/carbon-addons-catalog-react",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-catalog-react",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 95463431,
+    "name": "carbon-boilerplate",
+    "html_url": "https://github.com/carbon-design-system/carbon-boilerplate",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-boilerplate",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 98347787,
+    "name": "carbon-eslint",
+    "html_url": "https://github.com/carbon-design-system/carbon-eslint",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-eslint",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 100506782,
+    "name": "design-system-website",
+    "html_url": "https://github.com/carbon-design-system/design-system-website",
+    "url": "https://api.github.com/repos/carbon-design-system/design-system-website",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 100722500,
+    "name": "carbon-addons-bluemix",
+    "html_url": "https://github.com/carbon-design-system/carbon-addons-bluemix",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-bluemix",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 103418444,
+    "name": "carbon-addons-data-viz-react",
+    "html_url": "https://github.com/carbon-design-system/carbon-addons-data-viz-react",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-data-viz-react",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 104906879,
+    "name": "carbon-addons-beta-react",
+    "html_url": "https://github.com/carbon-design-system/carbon-addons-beta-react",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-beta-react",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 109417065,
+    "name": "carbon-addons-watson-beta",
+    "html_url": "https://github.com/carbon-design-system/carbon-addons-watson-beta",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-watson-beta",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 110753141,
+    "name": "carbon-addons-cloud",
+    "html_url": "https://github.com/carbon-design-system/carbon-addons-cloud",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-cloud",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 113475983,
+    "name": "spec",
+    "html_url": "https://github.com/carbon-design-system/spec",
+    "url": "https://api.github.com/repos/carbon-design-system/spec",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 114012735,
+    "name": "carbon-addons-cloud-vanilla",
+    "html_url": "https://github.com/carbon-design-system/carbon-addons-cloud-vanilla",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-cloud-vanilla",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 116158855,
+    "name": "sync",
+    "html_url": "https://github.com/carbon-design-system/sync",
+    "url": "https://api.github.com/repos/carbon-design-system/sync",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 116168424,
+    "name": "carbon-addons-ics",
+    "html_url": "https://github.com/carbon-design-system/carbon-addons-ics",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-ics",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  }
+]

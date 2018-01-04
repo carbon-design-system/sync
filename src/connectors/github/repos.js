@@ -15,7 +15,6 @@ const baseConfig = {
   },
   resolveWithFullResponse: true,
   timeout: 10000,
-  json: true,
 };
 
 async function all(org) {
