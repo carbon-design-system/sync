@@ -14,6 +14,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -35,6 +36,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -56,6 +58,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -77,6 +80,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -98,6 +102,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -119,6 +124,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -134,14 +140,15 @@
     "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react",
     "config": {
       "travis_ci": {
-        "enabled": false,
+        "enabled": true,
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": true,
         "labels": false,
-        "milestones": false,
+        "milestones": true,
         "protected": false
       }
     }
@@ -161,6 +168,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -182,6 +190,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -203,6 +212,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -224,6 +234,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -245,6 +256,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -266,6 +278,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -287,6 +300,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -308,6 +322,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -329,6 +344,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -350,6 +366,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -371,6 +388,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -392,6 +410,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -413,6 +432,7 @@
         "GH_TOKEN": false
       },
       "github": {
+        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false

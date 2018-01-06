@@ -23,6 +23,7 @@ const getConfig = (repo, savedRepo) => {
       GH_TOKEN: false,
     },
     github: {
+      enabled: false,
       labels: false,
       milestones: false,
       protected: false,
