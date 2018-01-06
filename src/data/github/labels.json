@@ -60,6 +60,20 @@
     "color": "fbca04"
   },
   {
+    "id": 795390219,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/refactor-v9",
+    "name": "refactor-v9",
+    "color": "59f7ba",
+    "default": false
+  },
+  {
+    "id": 795385292,
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/visual%20question",
+    "name": "visual question",
+    "color": "a59aea",
+    "default": false
+  },
+  {
     "id": 625018840,
     "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/visual%20review%20needed",
     "name": "visual review needed",
