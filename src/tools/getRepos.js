@@ -64,6 +64,5 @@ Repo.all('carbon-design-system')
       )
     )
   )
-  .catch(error => {
-    console.log(error);
-  });
+  // eslint-disable-next-line no-console
+  .catch(error => console.log(error));
