@@ -1,5 +1,5 @@
 'use strict';
 
-async function syncTokens(repo) {}
+async function syncTokens() {}
 
 module.exports = syncTokens;

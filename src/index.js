@@ -1,6 +1,7 @@
 'use strict';
 
 if (!process.env.GH_TOKEN) {
+  // eslint-disable-next-line no-console
   console.error(
     chalk.red(
       `Expected a token for GitHub as an environment variable named ` +
@@ -22,8 +23,10 @@ async function sync(repo) {
 
 Promise.all(repos.map(sync))
   .then(() => {
+    // eslint-disable-next-line no-console
     console.log('✅  Sync complete!');
   })
   .catch(error => {
+    // eslint-disable-next-line no-console
     console.log(error);
   });
