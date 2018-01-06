@@ -5,7 +5,7 @@ async function syncGitHub(repo) {
   if (!github.enabled) {
     return;
   }
-  const services = [require('./milestones')];
+  const services = [require('./labels'), require('./milestones')];
   return Promise.all(services.map(async service => await service(repo)));
 }
 

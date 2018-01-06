@@ -410,9 +410,9 @@
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
+        "enabled": true,
+        "labels": true,
+        "milestones": true,
         "protected": false
       }
     }
