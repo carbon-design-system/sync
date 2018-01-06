@@ -2,6 +2,8 @@
   {
     "id": 84835535,
     "name": "carbon-components",
+    "description": "The component library behind Carbon Design System",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-components",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-components",
     "config": {
@@ -21,6 +23,8 @@
   {
     "id": 85728567,
     "name": "carbon-themes",
+    "description": "A collection of themes for use with Carbon Components",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-themes",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-themes",
     "config": {
@@ -40,6 +44,8 @@
   {
     "id": 85987501,
     "name": "carbon-icons",
+    "description": "SVG icon library for Carbon Design System",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-icons",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-icons",
     "config": {
@@ -59,6 +65,8 @@
   {
     "id": 86360855,
     "name": "carbon-design-kit",
+    "description": "A versioned, comprehensive kit of the Carbon Design System visual assets (components, iconography, color palettes, grids, templates).",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-design-kit",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-design-kit",
     "config": {
@@ -78,6 +86,8 @@
   {
     "id": 88177157,
     "name": "carbon-apis",
+    "description": null,
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-apis",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-apis",
     "config": {
@@ -97,6 +107,8 @@
   {
     "id": 91586623,
     "name": "carbon-sandbox",
+    "description": "A theme playground for Carbon Components",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-sandbox",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-sandbox",
     "config": {
@@ -116,6 +128,8 @@
   {
     "id": 92527058,
     "name": "carbon-components-react",
+    "description": "Carbon Components - in React!",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-components-react",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react",
     "config": {
@@ -135,6 +149,8 @@
   {
     "id": 95431577,
     "name": "carbon-addons-catalog-react",
+    "description": "Bluemix Catalog components in React",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-catalog-react",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-catalog-react",
     "config": {
@@ -154,6 +170,8 @@
   {
     "id": 95463431,
     "name": "carbon-boilerplate",
+    "description": "A simple boilerplate for rapid UI prototyping with Carbon components",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-boilerplate",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-boilerplate",
     "config": {
@@ -173,6 +191,8 @@
   {
     "id": 98347787,
     "name": "carbon-eslint",
+    "description": "Carbon's eslint configuration",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-eslint",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-eslint",
     "config": {
@@ -192,6 +212,8 @@
   {
     "id": 100506782,
     "name": "design-system-website",
+    "description": "http://www.carbondesignsystem.com",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/design-system-website",
     "url": "https://api.github.com/repos/carbon-design-system/design-system-website",
     "config": {
@@ -211,6 +233,8 @@
   {
     "id": 100722500,
     "name": "carbon-addons-bluemix",
+    "description": null,
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-bluemix",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-bluemix",
     "config": {
@@ -230,6 +254,8 @@
   {
     "id": 103418444,
     "name": "carbon-addons-data-viz-react",
+    "description": "Carbon Data Visualization components built in React",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-data-viz-react",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-data-viz-react",
     "config": {
@@ -249,6 +275,8 @@
   {
     "id": 104906879,
     "name": "carbon-addons-beta-react",
+    "description": "Beta React components. May be elevated into the main library.",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-beta-react",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-beta-react",
     "config": {
@@ -268,6 +296,8 @@
   {
     "id": 109417065,
     "name": "carbon-addons-watson-beta",
+    "description": "Beta components for collaboration between Watson and Carbon.",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-watson-beta",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-watson-beta",
     "config": {
@@ -287,6 +317,8 @@
   {
     "id": 110753141,
     "name": "carbon-addons-cloud",
+    "description": "Carbon add-on for IBM Cloud",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-cloud",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-cloud",
     "config": {
@@ -306,6 +338,8 @@
   {
     "id": 113475983,
     "name": "spec",
+    "description": "Discussions related to the design system specification for Carbon",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/spec",
     "url": "https://api.github.com/repos/carbon-design-system/spec",
     "config": {
@@ -325,6 +359,8 @@
   {
     "id": 114012735,
     "name": "carbon-addons-cloud-vanilla",
+    "description": "Vanilla JS bindings for the Carbon Add-on for IBM Cloud",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-cloud-vanilla",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-cloud-vanilla",
     "config": {
@@ -344,6 +380,8 @@
   {
     "id": 116158855,
     "name": "sync",
+    "description": "Internal tool for keeping project repositories in sync",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/sync",
     "url": "https://api.github.com/repos/carbon-design-system/sync",
     "config": {
@@ -363,6 +401,8 @@
   {
     "id": 116168424,
     "name": "carbon-addons-ics",
+    "description": "[WIP] Carbon Add-on for IBM Collaboration Solutions",
+    "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-ics",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-ics",
     "config": {

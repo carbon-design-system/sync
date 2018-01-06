@@ -15,7 +15,6 @@ const baseConfig = {
   },
   resolveWithFullResponse: true,
   timeout: 10000,
-  json: true,
 };
 
 async function all(owner, repo) {
@@ -25,7 +24,6 @@ async function all(owner, repo) {
     qs: {
       per_page: 100,
     },
-    json: true,
   };
   return page(config);
 }
