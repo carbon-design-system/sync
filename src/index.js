@@ -16,7 +16,7 @@ const travis = require('./sync/travis-ci');
 const repos = require('./data/github/repos.json');
 
 async function sync(repo) {
-  const providers = [github, travis];
+  const providers = [/* github, */ travis];
   return Promise.all(providers.map(async provider => await provider(repo)));
 }
 
