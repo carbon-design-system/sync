@@ -1,83 +1,142 @@
 [
   {
-    "name": "bug",
-    "color": "ee0701"
+    "id": 927981266,
+    "name": "Severity 1 🚨",
+    "color": "aa231f"
   },
   {
-    "name": "discussion",
-    "color": "cc317c"
+    "id": 927981468,
+    "name": "Severity 2",
+    "color": "F5923E"
   },
   {
-    "name": "docs",
-    "color": "d4c5f9"
+    "id": 927981592,
+    "name": "Severity 3",
+    "color": "fed500"
   },
   {
-    "name": "duplicate",
-    "color": "cccccc"
+    "id": 927981733,
+    "name": "Severity 4",
+    "color": "fbeaae"
   },
   {
-    "name": "enhancement",
-    "color": "84b6eb"
-  },
-  {
-    "name": "good first issue",
+    "id": 717047679,
+    "name": "good first issue 👋",
     "color": "7057ff"
   },
   {
+    "id": 746936015,
     "name": "greenkeeper",
     "color": "00c775"
   },
   {
-    "name": "grooming",
-    "color": "fef2c0"
-  },
-  {
-    "name": "help wanted",
-    "color": "7057ff"
-  },
-  {
-    "name": "one more review",
-    "color": "0052cc"
-  },
-  {
+    "id": 750301602,
     "name": "priority: high",
     "color": "EB101A"
   },
   {
+    "id": 750301861,
     "name": "priority: low",
     "color": "fbca04"
   },
   {
+    "id": 750301772,
     "name": "priority: medium",
     "color": "F5923E"
   },
   {
-    "name": "question",
-    "color": "cc317c"
+    "id": 992114169,
+    "name": "semantic-release",
+    "color": "ededed"
   },
   {
-    "name": "ready for review",
+    "id": 1039362526,
+    "name": "status: WIP 👩‍💻",
+    "color": "0dd8d1"
+  },
+  {
+    "id": 625018611,
+    "name": "status: failing tests  :no_good_man:",
+    "color": "ee0701"
+  },
+  {
+    "id": 613854896,
+    "name": "status: help wanted :open_hands:",
+    "color": "7057ff"
+  },
+  {
+    "id": 625018691,
+    "name": "status: merge conflict :no_entry_sign:",
+    "color": "fcd5bd"
+  },
+  {
+    "id": 1032385260,
+    "name": "status: needs more info 🤷‍♀️",
+    "color": "d4c5f9"
+  },
+  {
+    "id": 625018029,
+    "name": "status: one more review :eyes:",
+    "color": "0052cc"
+  },
+  {
+    "id": 625018770,
+    "name": "status: ready for review  :eyes:",
     "color": "fbca04"
   },
   {
-    "id": 795390219,
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/refactor-v9",
-    "name": "refactor-v9",
-    "color": "59f7ba",
-    "default": false
+    "id": 625018840,
+    "name": "status: visual review :eyes:",
+    "color": "d4c5f9"
+  },
+  {
+    "id": 1046611948,
+    "name": "status: waiting for response :thought_balloon:",
+    "color": "ffccf9"
+  },
+  {
+    "id": 814033421,
+    "name": "type: a11y",
+    "color": "734098"
+  },
+  {
+    "id": 613854893,
+    "name": "type: bug 🐛",
+    "color": "f8673a"
+  },
+  {
+    "id": 757475886,
+    "name": "type: discussion 💬",
+    "color": "FCCA6B"
+  },
+  {
+    "id": 690554153,
+    "name": "type: docs :book:",
+    "color": "d4c5f9"
+  },
+  {
+    "id": 613854894,
+    "name": "type: duplicate 👯",
+    "color": "cccccc"
+  },
+  {
+    "id": 613854895,
+    "name": "type: enhancement 💡",
+    "color": "84b6eb"
+  },
+  {
+    "id": 613854898,
+    "name": "type: question :question:",
+    "color": "aaffc4"
   },
   {
     "id": 795385292,
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/visual%20question",
-    "name": "visual question",
-    "color": "a59aea",
-    "default": false
+    "name": "type: visual :art:",
+    "color": "a59aea"
   },
   {
-    "id": 625018840,
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react/labels/visual%20review%20needed",
-    "name": "visual review needed",
-    "color": "d4c5f9",
-    "default": false
+    "id": 795390219,
+    "name": "v10 :new:",
+    "color": "000000"
   }
 ]
