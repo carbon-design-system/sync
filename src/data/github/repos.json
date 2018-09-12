@@ -4,8 +4,74 @@
     "name": "carbon-components",
     "description": "The component library behind Carbon Design System",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-components",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-components",
+    "html_url": "https://github.com/IBM/carbon-components",
+    "url": "https://api.github.com/repos/IBM/carbon-components",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "enabled": false,
+        "labels": false, 
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 92527058,
+    "name": "carbon-components-react",
+    "description": "Carbon Components - in React!",
+    "owner": "carbon-design-system",
+    "html_url": "https://github.com/IBM/carbon-components-react",
+    "url": "https://api.github.com/repos/IBM/carbon-components-react",
+    "config": {
+      "travis_ci": {
+        "enabled": true,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "enabled": true,
+        "labels": false,
+        "milestones": true,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 85987501,
+    "name": "carbon-icons",
+    "description": "SVG icon library for Carbon Design System",
+    "owner": "carbon-design-system",
+    "html_url": "https://github.com/IBM/carbon-icons",
+    "url": "https://api.github.com/repos/IBM/carbon-icons",
+    "config": {
+      "travis_ci": {
+        "enabled": false,
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "enabled": false,
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "id": 100506782,
+    "name": "design-system-website",
+    "description": "http://www.carbondesignsystem.com",
+    "owner": "IBM",
+    "html_url": "https://github.com/IBM/design-system-website",
+    "url": "https://api.github.com/repos/IBM/design-system-website",
     "config": {
       "travis_ci": {
         "enabled": false,
@@ -44,12 +110,11 @@
     }
   },
   {
-    "id": 85987501,
-    "name": "carbon-icons",
-    "description": "SVG icon library for Carbon Design System",
+    "name": "issue-tracking",
+    "description": "For tracking issues that can't be put in the relevant open source repositories. Using to deprecate issue tracking in GHE.",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-icons",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-icons",
+    "html_url": "https://github.com/carbon-design-system/issue-tracking",
+    "url": "https://api.github.com/repos/carbon-design-system/issue-tracking",
     "config": {
       "travis_ci": {
         "enabled": false,
@@ -66,188 +131,11 @@
     }
   },
   {
-    "id": 86360855,
-    "name": "carbon-design-kit",
-    "description": "A versioned, comprehensive kit of the Carbon Design System visual assets (components, iconography, color palettes, grids, templates).",
+    "name": "carbon-website-gatsby",
+    "description": "Work in progress repo for re-architecting the current Carbon Design System website (http://www.carbondesignsystem.com) using GatsbyJS.",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-design-kit",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-design-kit",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 88177157,
-    "name": "carbon-apis",
-    "description": null,
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-apis",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-apis",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 91586623,
-    "name": "carbon-sandbox",
-    "description": "A theme playground for Carbon Components",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-sandbox",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-sandbox",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 92527058,
-    "name": "carbon-components-react",
-    "description": "Carbon Components - in React!",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-components-react",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react",
-    "config": {
-      "travis_ci": {
-        "enabled": true,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": true,
-        "labels": false,
-        "milestones": true,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 95431577,
-    "name": "carbon-addons-catalog-react",
-    "description": "Bluemix Catalog components in React",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-catalog-react",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-catalog-react",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 95463431,
-    "name": "carbon-boilerplate",
-    "description": "A simple boilerplate for rapid UI prototyping with Carbon components",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-boilerplate",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-boilerplate",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 98347787,
-    "name": "carbon-eslint",
-    "description": "Carbon's eslint configuration",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-eslint",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-eslint",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 100506782,
-    "name": "design-system-website",
-    "description": "http://www.carbondesignsystem.com",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/design-system-website",
-    "url": "https://api.github.com/repos/carbon-design-system/design-system-website",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 100722500,
-    "name": "carbon-addons-bluemix",
-    "description": null,
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-bluemix",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-bluemix",
+    "html_url": "https://github.com/carbon-design-system/carbon-website-gatsby",
+    "url": "https://api.github.com/repos/carbon-design-system/carbon-website-gatsby",
     "config": {
       "travis_ci": {
         "enabled": false,
@@ -270,160 +158,6 @@
     "owner": "carbon-design-system",
     "html_url": "https://github.com/carbon-design-system/carbon-addons-data-viz-react",
     "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-data-viz-react",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 104906879,
-    "name": "carbon-addons-beta-react",
-    "description": "Beta React components. May be elevated into the main library.",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-beta-react",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-beta-react",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 109417065,
-    "name": "carbon-addons-watson-beta",
-    "description": "Beta components for collaboration between Watson and Carbon.",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-watson-beta",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-watson-beta",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 110753141,
-    "name": "carbon-addons-cloud",
-    "description": "Carbon add-on for IBM Cloud",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-cloud",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-cloud",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 113475983,
-    "name": "spec",
-    "description": "Discussions related to the design system specification for Carbon",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/spec",
-    "url": "https://api.github.com/repos/carbon-design-system/spec",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 114012735,
-    "name": "carbon-addons-cloud-vanilla",
-    "description": "Vanilla JS bindings for the Carbon Add-on for IBM Cloud",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-cloud-vanilla",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-cloud-vanilla",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 116158855,
-    "name": "sync",
-    "description": "Internal tool for keeping project repositories in sync",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/sync",
-    "url": "https://api.github.com/repos/carbon-design-system/sync",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": true,
-        "labels": true,
-        "milestones": true,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 116168424,
-    "name": "carbon-addons-ics",
-    "description": "[WIP] Carbon Add-on for IBM Collaboration Solutions",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-ics",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-ics",
     "config": {
       "travis_ci": {
         "enabled": false,
