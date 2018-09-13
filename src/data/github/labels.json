@@ -45,6 +45,26 @@
     "color": "F5923E"
   },
   {
+    "id": 1055842112,
+    "name": "project: components",
+    "color": "ff69b4"
+  },
+  {
+    "id": 1055842234,
+    "name": "project: governance",
+    "color": "ff69b4"
+  },
+  {
+    "id": 1055842449,
+    "name": "project: ui shell",
+    "color": "ff69b4"
+  },
+  {
+    "id": 1055841912,
+    "name": "project: website",
+    "color": "ff69b4"
+  },
+  {
     "id": 992114169,
     "name": "semantic-release",
     "color": "ededed"
@@ -95,6 +115,11 @@
     "color": "ffccf9"
   },
   {
+    "id": 1055850983,
+    "name": "status: wontfix :x:",
+    "color": "dddddd"
+  },
+  {
     "id": 814033421,
     "name": "type: a11y",
     "color": "734098"
@@ -128,6 +153,16 @@
     "id": 613854898,
     "name": "type: question :question:",
     "color": "aaffc4"
+  },
+  {
+    "id": 1055849281,
+    "name": "type: research :eyeglasses:",
+    "color": "25d13f"
+  },
+  {
+    "id": 1055852906,
+    "name": "type: ux :popcorn:",
+    "color": "3b1482"
   },
   {
     "id": 795385292,

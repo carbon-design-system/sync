@@ -10,7 +10,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -129,7 +129,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -265,7 +265,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -469,7 +469,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -486,7 +486,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -503,7 +503,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -520,7 +520,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -554,7 +554,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -571,7 +571,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
@@ -622,7 +622,7 @@
         "GH_TOKEN": false
       },
       "github": {
-        "labels": false,
+        "labels": true,
         "milestones": false,
         "protected": false
       }
