@@ -1,4 +1,18 @@
+/* eslint-disable no-console */
+
 'use strict';
+
+const chalk = require('chalk');
+
+if (!process.env.GH_TOKEN) {
+  console.error(
+    chalk.red(
+      `Expected a token for GitHub as an environment variable named ` +
+        `\`GH_TOKEN\`. Instead got: \`${process.env.GH_TOKEN}\``
+    )
+  );
+  process.exit(1);
+}
 
 const fs = require('fs');
 const path = require('path');
@@ -9,21 +23,39 @@ const savedRepos = require('../data/github/repos.json');
 const writeFileAsync = util.promisify(fs.writeFile);
 const REPOS_PATH = path.resolve(__dirname, '../data/github/repos.json');
 
-const first = array => array[0];
-const getRepoByName = (repos, name) => {
-  return first(repos.filter(repo => repo.name === name));
-};
+console.log('Fetching repos from sources...');
 
-const getConfig = (repo, savedRepo) => {
+flatMap(Promise.all([Repo.all('carbon-design-system'), getIBMRepos()]))
+  .then(repos => {
+    console.log('Collected repos, writing to disc...');
+
+    return writeFileAsync(
+      REPOS_PATH,
+      JSON.stringify(
+        repos.map(repo => ({
+          name: repo.name,
+          owner: repo.owner.login,
+          url: repo.html_url,
+          config: getConfig(repo, getRepoByName(savedRepos, repo.name)),
+        })),
+        null,
+        2
+      )
+    );
+  })
+  .then(() => {
+    console.log('Done!');
+  })
+  .catch(error => console.log(error));
+
+function getConfig(repo, savedRepo) {
   const defaultOptions = {
-    travis_ci: {
-      enabled: false,
+    travis: {
       CLOUD_TOKEN: false,
       NPM_TOKEN: false,
       GH_TOKEN: false,
     },
     github: {
-      enabled: false,
       labels: false,
       milestones: false,
       protected: false,
@@ -44,26 +76,32 @@ const getConfig = (repo, savedRepo) => {
       ...savedRepo.config.github,
     },
   };
-};
+}
 
-Repo.all('carbon-design-system')
-  .then(repos =>
-    writeFileAsync(
-      REPOS_PATH,
-      JSON.stringify(
-        repos.map(repo => ({
-          id: repo.id,
-          name: repo.name,
-          description: repo.description,
-          owner: repo.owner.login,
-          html_url: repo.html_url,
-          url: repo.url,
-          config: getConfig(repo, getRepoByName(savedRepos, repo.name)),
-        })),
-        null,
-        2
-      )
-    )
-  )
-  // eslint-disable-next-line no-console
-  .catch(error => console.log(error));
+async function flatMap(promise) {
+  return (await promise).reduce((acc, arr) => acc.concat(arr), []);
+}
+
+function first(array) {
+  return array[0];
+}
+
+function getRepoByName(repos, name) {
+  return first(repos.filter(repo => repo.name === name));
+}
+
+function getIBMRepos() {
+  return Repo.all('IBM').then(repos => {
+    return repos.filter(repo => {
+      if (repo.name.toLowerCase().includes('carbon')) {
+        return true;
+      }
+
+      if (repo.name === 'design-system-website') {
+        return true;
+      }
+
+      return false;
+    });
+  });
+}

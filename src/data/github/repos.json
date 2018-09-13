@@ -1,42 +1,15 @@
 [
   {
-    "id": 84835535,
-    "name": "carbon-components",
-    "description": "The component library behind Carbon Design System",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-components",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-components",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 85728567,
     "name": "carbon-themes",
-    "description": "A collection of themes for use with Carbon Components",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-themes",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-themes",
+    "url": "https://github.com/carbon-design-system/carbon-themes",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -44,65 +17,16 @@
     }
   },
   {
-    "id": 85987501,
-    "name": "carbon-icons",
-    "description": "SVG icon library for Carbon Design System",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-icons",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-icons",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 86360855,
-    "name": "carbon-design-kit",
-    "description": "A versioned, comprehensive kit of the Carbon Design System visual assets (components, iconography, color palettes, grids, templates).",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-design-kit",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-design-kit",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 88177157,
     "name": "carbon-apis",
-    "description": null,
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-apis",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-apis",
+    "url": "https://github.com/carbon-design-system/carbon-apis",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -110,21 +34,16 @@
     }
   },
   {
-    "id": 91586623,
     "name": "carbon-sandbox",
-    "description": "A theme playground for Carbon Components",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-sandbox",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-sandbox",
+    "url": "https://github.com/carbon-design-system/carbon-sandbox",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -132,43 +51,16 @@
     }
   },
   {
-    "id": 92527058,
-    "name": "carbon-components-react",
-    "description": "Carbon Components - in React!",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-components-react",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-components-react",
-    "config": {
-      "travis_ci": {
-        "enabled": true,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": true,
-        "labels": false,
-        "milestones": true,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 95431577,
     "name": "carbon-addons-catalog-react",
-    "description": "Bluemix Catalog components in React",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-catalog-react",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-catalog-react",
+    "url": "https://github.com/carbon-design-system/carbon-addons-catalog-react",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -176,21 +68,16 @@
     }
   },
   {
-    "id": 95463431,
     "name": "carbon-boilerplate",
-    "description": "A simple boilerplate for rapid UI prototyping with Carbon components",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-boilerplate",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-boilerplate",
+    "url": "https://github.com/carbon-design-system/carbon-boilerplate",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -198,21 +85,16 @@
     }
   },
   {
-    "id": 98347787,
     "name": "carbon-eslint",
-    "description": "Carbon's eslint configuration",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-eslint",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-eslint",
+    "url": "https://github.com/carbon-design-system/carbon-eslint",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -220,175 +102,16 @@
     }
   },
   {
-    "id": 100506782,
-    "name": "design-system-website",
-    "description": "http://www.carbondesignsystem.com",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/design-system-website",
-    "url": "https://api.github.com/repos/carbon-design-system/design-system-website",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 100722500,
-    "name": "carbon-addons-bluemix",
-    "description": null,
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-bluemix",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-bluemix",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 103418444,
-    "name": "carbon-addons-data-viz-react",
-    "description": "Carbon Data Visualization components built in React",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-data-viz-react",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-data-viz-react",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 104906879,
-    "name": "carbon-addons-beta-react",
-    "description": "Beta React components. May be elevated into the main library.",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-beta-react",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-beta-react",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 109417065,
-    "name": "carbon-addons-watson-beta",
-    "description": "Beta components for collaboration between Watson and Carbon.",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-watson-beta",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-watson-beta",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 110753141,
-    "name": "carbon-addons-cloud",
-    "description": "Carbon add-on for IBM Cloud",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-cloud",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-cloud",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 113475983,
-    "name": "spec",
-    "description": "Discussions related to the design system specification for Carbon",
-    "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/spec",
-    "url": "https://api.github.com/repos/carbon-design-system/spec",
-    "config": {
-      "travis_ci": {
-        "enabled": false,
-        "CLOUD_TOKEN": false,
-        "NPM_TOKEN": false,
-        "GH_TOKEN": false
-      },
-      "github": {
-        "enabled": false,
-        "labels": false,
-        "milestones": false,
-        "protected": false
-      }
-    }
-  },
-  {
-    "id": 114012735,
     "name": "carbon-addons-cloud-vanilla",
-    "description": "Vanilla JS bindings for the Carbon Add-on for IBM Cloud",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-cloud-vanilla",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-cloud-vanilla",
+    "url": "https://github.com/carbon-design-system/carbon-addons-cloud-vanilla",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
         "labels": false,
         "milestones": false,
         "protected": false
@@ -396,21 +119,101 @@
     }
   },
   {
-    "id": 116158855,
-    "name": "sync",
-    "description": "Internal tool for keeping project repositories in sync",
+    "name": "carbon-addons-data-viz-react",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/sync",
-    "url": "https://api.github.com/repos/carbon-design-system/sync",
+    "url": "https://github.com/carbon-design-system/carbon-addons-data-viz-react",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": true,
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-addons-beta-react",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-addons-beta-react",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-addons-cloud",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-addons-cloud",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "spec",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/spec",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-addons-cloud-vanilla-archived",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-addons-cloud-vanilla-archived",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "sync",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/sync",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
         "labels": true,
         "milestones": true,
         "protected": false
@@ -418,21 +221,407 @@
     }
   },
   {
-    "id": 116168424,
     "name": "carbon-addons-ics",
-    "description": "[WIP] Carbon Add-on for IBM Collaboration Solutions",
     "owner": "carbon-design-system",
-    "html_url": "https://github.com/carbon-design-system/carbon-addons-ics",
-    "url": "https://api.github.com/repos/carbon-design-system/carbon-addons-ics",
+    "url": "https://github.com/carbon-design-system/carbon-addons-ics",
     "config": {
-      "travis_ci": {
-        "enabled": false,
+      "travis": {
         "CLOUD_TOKEN": false,
         "NPM_TOKEN": false,
         "GH_TOKEN": false
       },
       "github": {
-        "enabled": false,
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-addons-website",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-addons-website",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "rfcs",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/rfcs",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-polyfill",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-polyfill",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-angular",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-angular",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-handlebars",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-handlebars",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-addons-infrastructure",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-addons-infrastructure",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-addons-cloud-react",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-addons-cloud-react",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-addons-ibm-analytics",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-addons-ibm-analytics",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-addons-boilerplate-react",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-addons-boilerplate-react",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-onboarding",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-onboarding",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-contribution",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-contribution",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "toolkit",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/toolkit",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-website-gatsby",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/carbon-website-gatsby",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "issue-tracking",
+    "owner": "carbon-design-system",
+    "url": "https://github.com/carbon-design-system/issue-tracking",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-components",
+    "owner": "IBM",
+    "url": "https://github.com/IBM/carbon-components",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-icons",
+    "owner": "IBM",
+    "url": "https://github.com/IBM/carbon-icons",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-design-kit",
+    "owner": "IBM",
+    "url": "https://github.com/IBM/carbon-design-kit",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-components-react",
+    "owner": "IBM",
+    "url": "https://github.com/IBM/carbon-components-react",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "design-system-website",
+    "owner": "IBM",
+    "url": "https://github.com/IBM/design-system-website",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-components-angular",
+    "owner": "IBM",
+    "url": "https://github.com/IBM/carbon-components-angular",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-charts",
+    "owner": "IBM",
+    "url": "https://github.com/IBM/carbon-charts",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
+        "labels": false,
+        "milestones": false,
+        "protected": false
+      }
+    }
+  },
+  {
+    "name": "carbon-elements",
+    "owner": "IBM",
+    "url": "https://github.com/IBM/carbon-elements",
+    "config": {
+      "travis": {
+        "CLOUD_TOKEN": false,
+        "NPM_TOKEN": false,
+        "GH_TOKEN": false
+      },
+      "github": {
         "labels": false,
         "milestones": false,
         "protected": false
