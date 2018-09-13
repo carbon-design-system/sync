@@ -6,7 +6,6 @@ async function syncGitHub(repo) {
     require('./labels'),
     require('./milestones'),
   ];
-
   return Promise.all(services.map(async service => await service(repo)));
 }
 
